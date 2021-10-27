@@ -3,35 +3,41 @@
     <head>
         <title>Travis Young's Web Page</title>
         <style>
+          P {font-family: sans-serif;}
+          h1,h2,h3 {font-family: serif;}
+          #divbox {display: flex;
+                      flex-direction: row; flex-wrap: wrap;}
+        #myclasses {background-color: #A4BD7F;
+                    border: 2pt;}
+        .container {padding: .5in; border-width: 4pt; border_color: black; background-color:#F3E067; margin: 2pt;}
+          table { border: 3px black solid;}
+          td { background-color: white; font-family: sans-serif;}
+          image {border-color: black; border-width: 4px;}
         </style>
     </head>
 <body>
     <h1 class="header">First Try</h1>
 
     <p>You are looking at my first attempt ever at using HTML and CSS code.</p>
-
-    <div id="myclasses" class="container"
-    <h2 class="header">My Classes</h2>
+  <div id="divbox">
+    <div class="container"
+    <h2 >My Classes</h2>
 
     <ul>
         <li>GIS Application</li>
         <li>Web Mapping</li>
         <li>Cartography</li>
     </ul>
-    </div>
 
-    <div id="goals" class="container">
-    <h3 class="header">Goals For the Term</h3>
+    <h3>Goals For the Term</h3>
     <p>I intended to only take to classes this fall,
       but the way the schedule lined up, I needed to take 3.
       I generally try for an "A" in every class, but a couple
       of "B's" and an "A" this semester will probably satisfy
       me considering the other responsibilities I have at the moment.
     </p>
-    </div>
 
-    <div id="links" class="container">
-    <h3 class="header">Web Links</h3>
+    <h3>Web Links</h3>
 
     <p>Since I don't have much direction for this page yet,
       I've decided to provide links to a couple of recent news
@@ -42,10 +48,8 @@
       <li><a href="https://www.bbc.com/news/science-environment-24021772">Climate Change</a>
         <li><a href="https://www.washingtonpost.com/weather/2021/10/18/atlantic-hurricane-season-2021-sleeping/">Hurricane Season</a>
         </ul>
-      </div>
 
 
-    <div id="table" class="container">
     <h3>Table</h3>
 
     <p>Also, I have added this table as a placeholder
@@ -79,7 +83,8 @@
           <td>0</td>
       </tr>
     </tabe>
-  </div>
+
+</div>
 
    <img src="https://m0.joe.ie/wp-content/uploads/2016/02/09112328/New-Premier-League-sign.jpg"/>
 </body>
