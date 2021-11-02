@@ -43,12 +43,13 @@
     <div id="links" class="container">
     <h3 class="header">Web Links</h3>
 
-    <p>Since I don't have much direction for this page yet,
-      I've decided to provide links to a couple of recent news
-      articles that I found interesting.
-    </p>
+    <button id="news_articles_button">Here are some news articles that I thought were interesting and relevant to GIS.</button>
 
-    <ul>
+    <script>
+      $("button").hover( function(){$("#news_articles").show();})
+    </script>
+
+    <ul hidden id="news_articles">
       <li><a href="https://www.bbc.com/news/science-environment-24021772">Climate Change</a>
         <li><a href="https://www.washingtonpost.com/weather/2021/10/18/atlantic-hurricane-season-2021-sleeping/">Hurricane Season</a>
         </ul>
